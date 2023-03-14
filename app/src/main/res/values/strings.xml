@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">LoudAlarm</string>
+    <string name="title_home">Главная</string>
+    <string name="title_settings">Настройки</string>
+    <string name="title_add">Будильник</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+    <string name="FAQ_for_game">1. Нельзя выйти из игры менее, чем через 2 минуты после начала; \n2. На один пример есть только 3 попытки; \n3. После 20 секунд бездействия включается музыка и не выключается до прохождения двух уровней;</string>
+    <string name="description_for_game">MathTrainer - игра, начинающая работать после того, как Вы нажмете кнопку «Выключить» при срабатывании установленного будильника.
+    \nС его помощью Вы сможете взбодриться с утра и легче встать, а простые задачи разбудет Ваш мозг!
+    \nБодрого Вам пробуждения!
+    \n</string>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="80dp"
+    android:clickable="true"
+    android:padding="40dp"
+    tools:context=".Fragments.SettingsFragment">
+
+    <TextView
+        android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="10dp"
+    android:hint="НАСТРОЙКИ"
+    android:textColorHint="@color/white"
+    android:textSize="40dp" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rel1"
+    android:layout_below="@+id/title">
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"/>
+
+    <android.widget.Button
+        android:id="@+id/ringtone"
+        android:layout_below="@id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/null_color"
+        android:gravity="center_vertical"
+        android:textSize="18dp"
+        android:text="Мелодия по умолчанию"/>
+    <TextView
+        android:id="@+id/nameOfCheckedMusic"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/ringtone"
+        android:layout_height="20dp"
+        android:gravity="center_vertical"
+        android:textSize="15dp"
+        android:layout_marginBottom="3dp"
+        android:text="yguijokp"
+        tools:hint="dfghjnbhjkkjhg" />
+
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        android:layout_below="@id/nameOfCheckedMusic"
+        android:layout_marginBottom="10dp"/>
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rel1">
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:hint="ИНФОРМАЦИЯ"
+        android:textColorHint="@color/white"
+        android:textSize="40dp" />
+    <ScrollView
+        android:id="@+id/scroll_with_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MathTrainer"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:overScrollMode="always"
+                android:scrollbars="vertical"
+                android:text="@string/description_for_game"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Правила игры MathTrainer"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:overScrollMode="always"
+                android:scrollbars="vertical"
+                android:text="@string/FAQ_for_game"
+                 />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+</RelativeLayout>
